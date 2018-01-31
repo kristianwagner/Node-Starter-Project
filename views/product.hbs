@@ -1,0 +1,14 @@
+<ul>
+  {{#each productList}}
+    <li><a href="{{this.url}}">{{this.name}}</a></li>
+  {{/each}}
+</ul>
+
+
+<h1>Your Product</h1>
+<ul>
+  <li>Name: {{productData.name}}</li>
+  <li>Price: {{productData.price}} kr.</li>
+  <li>Category: {{productData.category}}</li>
+  <li>Sub Category: {{productData.subCategory}}</li>
+</ul>
